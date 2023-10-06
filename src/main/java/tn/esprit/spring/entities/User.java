@@ -3,7 +3,6 @@ package tn.esprit.spring.entities;
 
 import java.io.Serializable;
 import java.util.Date;
-//user
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -44,7 +43,7 @@ public class User implements Serializable {
 		this.dateNaissance = dateNaissance;
 		this.role = role;
 	}
-
+//update
 
 	public User(Long id, String firstName, String lastName, Date dateNaissance, Role role) {
 		super();
